@@ -3,7 +3,7 @@ package org.botnicholas.projects.serversentevents.services.dto;
 import lombok.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
-import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledFuture;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,5 +13,5 @@ import java.util.concurrent.Future;
 public class CreateOtpDto {
     private String otp;
     private SseEmitter emitter;
-    private Future<?> expiry;
+    private ScheduledFuture<?> expiry;
 }

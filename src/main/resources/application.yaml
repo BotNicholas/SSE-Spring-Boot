@@ -4,4 +4,4 @@ spring:
 sse:
   timeout: 9223372036854775807
 otp:
-  ttl: 60000
+  ttl: 10
