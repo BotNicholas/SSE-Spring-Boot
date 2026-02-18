@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ServerSentEvents
+sse:
+  timeout: 9223372036854775807
